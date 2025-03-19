@@ -1,0 +1,31 @@
+:root {
+  /* colors */
+  --amethyst-400: #AF76FF;
+  --amethyst-500: #8A53D6;
+  --moonshot-700: #2B215B;
+/* fonts */
+  --font-albert: "Albert Sans";
+  --font-inter: "Inter";
+  --font-jetbrains: "JetBrains Mono", monospace;
+}
+
+@font-face {
+  font-family: "Albert Sans";
+  src: url("/src/fonts/AlbertSans-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/src/fonts/Inter-VariableFont_opsz_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/src/fonts/JetBrainsMono-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
