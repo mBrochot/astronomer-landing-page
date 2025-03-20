@@ -1,49 +1,26 @@
 /** @format */
 
-import { ReactNode, useEffect, useState, useMemo } from 'react';
+import { ReactNode, useMemo } from 'react';
+import useTypewriter from 'hooks/useTypewriter';
 import styles from './hero.module.css';
 
 const Hero = (): ReactNode => {
   const texts = useMemo(
     () => [
       'Generative AI.',
+      'I’m open to work.',
       'Data products.',
+      'I’m open to work.',
       'Legacy modernization.',
+      'I’m open to work.',
       'Analytics dashboards.',
+      'I’m open to work.',
       'Regulatory reporting.',
     ],
     []
   );
-  const [index, setIndex] = useState(0);
-  const [displayText, setDisplayText] = useState('');
-  const [textIndex, setTextIndex] = useState(0);
-  const [isDeleting, setIsDeleting] = useState(false);
 
-  useEffect(() => {
-    const speed = 100;
-
-    if (!isDeleting && textIndex === texts[index].length) {
-      setTimeout(() => {
-        setIsDeleting(true);
-        setDisplayText('');
-        setTextIndex(0);
-        setIndex((prev) => (prev + 1) % texts.length);
-      }, 2000);
-      return;
-    }
-
-    if (isDeleting) {
-      setIsDeleting(false);
-      return;
-    }
-
-    const timeout = setTimeout(() => {
-      setTextIndex((prev) => prev + 1);
-      setDisplayText(texts[index].slice(0, textIndex + 1));
-    }, speed);
-
-    return () => clearTimeout(timeout);
-  }, [textIndex, isDeleting, index, texts]);
+  const displayText = useTypewriter(texts);
 
   return (
     <section className={styles.starField}>
