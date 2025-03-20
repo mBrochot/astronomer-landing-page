@@ -1,4 +1,4 @@
-import type { Brand } from '@models/hero'
+import type { Brand } from '../../models/hero'
 
 export const brands: Brand[] = [
               {

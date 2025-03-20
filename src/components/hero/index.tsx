@@ -1,8 +1,8 @@
 /** @format */
 
 import { type ReactNode, useMemo } from 'react';
-import useTypewriter from '@hooks/useTypewriter';
-import { Marquee } from '@components/Hero/components';
+import useTypewriter from '../../hooks/useTypewriter';
+import { Marquee } from '../../components/Hero/components';
 import styles from './hero.module.css';
 
 const Hero = (): ReactNode => {
