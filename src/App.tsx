@@ -8,6 +8,8 @@ function App() {
     <>
       <Header />
       <Hero />
+      {/* MAIN
+      FOOTER */}
     </>
   );
 }
