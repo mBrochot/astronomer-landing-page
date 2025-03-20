@@ -10,7 +10,7 @@ const Header = (): ReactNode => {
       <PromoBanner />
       <div className={styles.header}>
         <div className={styles.logo}>
-          <img src='/src/assets/logos/astronomer.svg' alt='astronomer' />
+          <img src='/assets/logos/astronomer.svg' alt='astronomer' />
         </div>
         <div className={styles.hamburgerBox}>
           <div className={styles.burger} />

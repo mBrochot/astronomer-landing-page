@@ -9,7 +9,7 @@
     overflow: hidden;
     background-position: 50%;
     background-size: cover;
-    background-image: url('/src/assets/images/homepage-nebula.webp')
+    background-image: url('/assets/images/homepage-nebula.webp')
 }
 
 .horizon {

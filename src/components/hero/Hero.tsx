@@ -59,10 +59,7 @@ const Hero = (): ReactNode => {
         </p>
       </div>
       <div className={styles.horizon}>
-        <img
-          alt='upperhorizon'
-          src='/src/assets/images/upperhorizon_newnew.webp'
-        />
+        <img alt='upperhorizon' src='/assets/images/upperhorizon_newnew.webp' />
       </div>
     </section>
   );
