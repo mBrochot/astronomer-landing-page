@@ -1,7 +1,7 @@
 /** @format */
 
 import { ReactNode } from 'react';
-import { PromoBanner } from './index';
+import { PromoBanner } from './components/index';
 import styles from './header.module.css';
 
 const Header = (): ReactNode => {
