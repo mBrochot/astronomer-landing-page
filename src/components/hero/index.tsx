@@ -1,7 +1,8 @@
 /** @format */
 
-import { ReactNode, useMemo } from 'react';
+import { type ReactNode, useMemo } from 'react';
 import useTypewriter from 'hooks/useTypewriter';
+import { Marquee } from 'components/Hero/components';
 import styles from './hero.module.css';
 
 const Hero = (): ReactNode => {
@@ -34,9 +35,16 @@ const Hero = (): ReactNode => {
           Language Models to data-driven applications, Astronomer delivers
           reliability at any scale and accelerates innovation.
         </p>
+        {/* 2 buttons */}
+      </div>
+      <div className={styles.logosSection}>
+        <p className={styles.logosText}>
+          Trusted by the world's top data and ML teams.
+        </p>
+        <Marquee />
       </div>
       <div className={styles.horizon}>
-        <img alt='upperhorizon' src='/assets/images/upperhorizon_newnew.webp' />
+        <img alt='upperhorizon' src='/assets/images/upperhorizon.webp' />
       </div>
     </section>
   );

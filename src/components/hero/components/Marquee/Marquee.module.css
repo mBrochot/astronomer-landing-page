@@ -1,0 +1,33 @@
+ @keyframes marqueeScroll {
+     from {
+         transform: translateX(0);
+     }
+     to {
+         transform: translateX(-100%);
+     }
+ }
+
+ .marqueeSection {
+     width: 100%;
+     overflow: hidden;
+ }
+
+ .marquee {
+     display: flex;
+     min-width: fit-content;
+     height: 56px;
+     white-space: nowrap;
+ }
+
+ .marqueeTrack {
+     display: flex;
+     align-items: center;
+     gap: 6rem;
+     animation: marqueeScroll 100s linear infinite;
+ }
+
+ .marquee img {
+     height: auto;
+     max-height: 100%;
+     width: auto;
+ }
