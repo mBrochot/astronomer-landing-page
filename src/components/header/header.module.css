@@ -20,11 +20,8 @@
 }
 
 .logo {
-    background-repeat: no-repeat;
-    background-size: contain;
     width: 176px;
     height: 18px;
-    display: block;
 }
 
 .hamburgerBox {

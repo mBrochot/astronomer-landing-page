@@ -9,11 +9,9 @@ const Header = (): ReactNode => {
     <>
       <PromoBanner />
       <div className={styles.header}>
-        <img
-          src='/src/assets/logos/astronomer.svg'
-          alt='astronomer'
-          className={styles.logo}
-        />
+        <div className={styles.logo}>
+          <img src='/src/assets/logos/astronomer.svg' alt='astronomer' />
+        </div>
         <div className={styles.hamburgerBox}>
           <div className={styles.burger} />
           <div className={styles.burger} />
