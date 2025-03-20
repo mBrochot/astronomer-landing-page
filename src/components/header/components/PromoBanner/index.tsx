@@ -1,7 +1,7 @@
 /** @format */
 
 import type { ReactNode } from 'react';
-import { NewReportButton } from 'components/Header/components';
+import { NewReportButton } from '@components/Header/components';
 import styles from './PromoBanner.module.css';
 
 const PromoBanner = (): ReactNode => {

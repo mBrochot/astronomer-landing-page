@@ -1,7 +1,7 @@
 /** @format */
 
 import type { ReactNode } from 'react';
-import { brands } from 'data/hero';
+import { brands } from '@data/hero';
 import styles from './Marquee.module.css';
 
 const Marquee = (): ReactNode => {
