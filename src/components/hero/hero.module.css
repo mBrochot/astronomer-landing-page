@@ -82,3 +82,19 @@
         font-size: 19px !important;
     }
 }
+
+.logosText {
+    color: var(--moonshot-250);
+    font-family: var(--font-inter);
+    text-shadow: 0 0 27px #de99ff1a;
+    margin-bottom: 1.75rem;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.logosSection {
+    margin-top: 132px
+}
+

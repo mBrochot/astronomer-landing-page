@@ -1,6 +1,6 @@
 /** @format */
 
-import { ReactNode } from 'react';
+import type { ReactNode } from 'react';
 import { NewReportButton } from 'components/Header/components';
 import styles from './PromoBanner.module.css';
 
