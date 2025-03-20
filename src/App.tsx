@@ -1,11 +1,13 @@
 /** @format */
 
-import { PromoBanner } from './components/heroSection';
+import Header from './components/header/Header';
+import Hero from './components/hero/Hero';
 
 function App() {
   return (
     <>
-      <PromoBanner />
+      <Header />
+      <Hero />
     </>
   );
 }

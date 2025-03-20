@@ -7,7 +7,7 @@
     padding: 15px .75rem;
     line-height: 28px;
     z-index: 4;
-    position: relative;
+    position: fixed;
     bottom: unset;
     top: 0;
     background: var(--moonshot-700);

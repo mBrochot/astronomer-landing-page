@@ -1,0 +1,44 @@
+.header {
+    z-index: 4;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 16px;
+    padding-block-start: .5rem;
+    padding-block-end: .5rem;
+    transition: background-color .4s;
+    position: fixed;
+    height: 62px;
+    top: 56px;
+}
+
+@media (max-width: 980px) {
+    .header {
+        top: 0;
+    }
+}
+
+.logo {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 176px;
+    height: 18px;
+    display: block;
+}
+
+.hamburgerBox {
+    width: 22px;
+    height: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    cursor: pointer;
+}
+
+.burger {
+    background-color: var(--amethyst-400);
+    width: 22px;
+    height: 3px;
+}
